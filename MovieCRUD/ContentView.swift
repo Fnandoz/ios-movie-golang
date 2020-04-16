@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        MoviesView()
+        MovieView(movieId: "5e939bdb96b1fe2061da9c31")
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390C02302449210F008CEB57 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C022F2449210F008CEB57 /* MovieView.swift */; };
 		39AA9CDF24467916002E0B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA9CDE24467916002E0B49 /* AppDelegate.swift */; };
 		39AA9CE124467916002E0B49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA9CE024467916002E0B49 /* SceneDelegate.swift */; };
 		39AA9CE324467916002E0B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA9CE224467916002E0B49 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		390C022F2449210F008CEB57 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
 		39AA9CDB24467916002E0B49 /* MovieCRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieCRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39AA9CDE24467916002E0B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39AA9CE024467916002E0B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				39AA9D0D2447D022002E0B49 /* MoviesView.swift */,
+				390C022F2449210F008CEB57 /* MovieView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				39AA9CDF24467916002E0B49 /* AppDelegate.swift in Sources */,
 				39AA9CE124467916002E0B49 /* SceneDelegate.swift in Sources */,
 				39AA9D0E2447D022002E0B49 /* MoviesView.swift in Sources */,
+				390C02302449210F008CEB57 /* MovieView.swift in Sources */,
 				39AA9D0824467ECA002E0B49 /* MovieViewModel.swift in Sources */,
 				39AA9CE324467916002E0B49 /* ContentView.swift in Sources */,
 			);
