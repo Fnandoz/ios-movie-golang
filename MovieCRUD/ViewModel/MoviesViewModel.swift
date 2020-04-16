@@ -14,7 +14,7 @@ protocol MoviesViewModelProtocol {
 
 class MoviesViewModel: MoviesViewModelProtocol {
     func getAll(completion: @escaping ([MovieModel], Error?) -> Void) {
-        let url = URL(string: "http://localhost:3000/api/v1/movies/")
+        let url = URL(string: "http://localhost:3000/api/v1/movies")
     
         
         let request = URLRequest(url: url!)
@@ -27,8 +27,8 @@ class MoviesViewModel: MoviesViewModelProtocol {
             do {
                 let success = try JSONDecoder().decode([MovieModel].self, from: data)
                 completion(success, error)
-            } catch {
-                completion([], error)
+            } catch let fail{
+                completion([], fail)
             }
         }
         task.resume()
