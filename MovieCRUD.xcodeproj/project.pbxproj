@@ -16,6 +16,7 @@
 		39AA9CFF24467A46002E0B49 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA9CFE24467A46002E0B49 /* MovieModel.swift */; };
 		39AA9D0624467EBC002E0B49 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA9D0524467EBC002E0B49 /* MoviesViewModel.swift */; };
 		39AA9D0824467ECA002E0B49 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA9D0724467ECA002E0B49 /* MovieViewModel.swift */; };
+		39AA9D0E2447D022002E0B49 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA9D0D2447D022002E0B49 /* MoviesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		39AA9CFE24467A46002E0B49 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		39AA9D0524467EBC002E0B49 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 		39AA9D0724467ECA002E0B49 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		39AA9D0D2447D022002E0B49 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		39AA9D0324467E90002E0B49 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				39AA9D0D2447D022002E0B49 /* MoviesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				39AA9D0624467EBC002E0B49 /* MoviesViewModel.swift in Sources */,
 				39AA9CDF24467916002E0B49 /* AppDelegate.swift in Sources */,
 				39AA9CE124467916002E0B49 /* SceneDelegate.swift in Sources */,
+				39AA9D0E2447D022002E0B49 /* MoviesView.swift in Sources */,
 				39AA9D0824467ECA002E0B49 /* MovieViewModel.swift in Sources */,
 				39AA9CE324467916002E0B49 /* ContentView.swift in Sources */,
 			);
