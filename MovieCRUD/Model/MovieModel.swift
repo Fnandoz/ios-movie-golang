@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct MovieModel: Codable {
+struct MovieModel: Codable & Identifiable{
     var id: String
     var name: String
     var thumb_image: String
     var description: String
-    var active: String
+    var active: Bool
 }
